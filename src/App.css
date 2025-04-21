@@ -24,3 +24,9 @@
   bottom: -200px;
   left: -200px;
 }
+
+@media only screen and (max-width: 600px) {
+  .elementShadow {
+    display: none;
+  }
+}

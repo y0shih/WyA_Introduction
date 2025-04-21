@@ -29,3 +29,13 @@
         color: white;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .header__nameBox__logo {
+        height: 40% !important;
+    }
+
+    .header__nameBox__appName {
+        font-size: 14px !important;
+    }
+}

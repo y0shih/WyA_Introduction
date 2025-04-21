@@ -20,8 +20,10 @@ const Body: React.FC = () => {
                 The real-time location <br /> tracking app
             </GradientText>
             <p className="bodyComponent__shortIntroduction">
-                Our app lets you track locations live and message in real time. <br />
-                Stay connected wherever you are
+                <span>
+                    Our app lets you track locations live and message in real time. <br />
+                    Stay connected wherever you are
+                </span>
             </p>
             <button className="bodyComponent__downloadBtn">
                 <i className="fas fa-download"></i>

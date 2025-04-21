@@ -22,3 +22,11 @@ body {
   height: 100%;
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --header-height: 60px;
+    --footer-height: 60px;
+    --main-Padding_left_right: 0 20px;
+  }
+}

@@ -22,3 +22,9 @@
     align-items: center;
     gap: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer__element {
+        font-size: 10px;
+    }
+}
