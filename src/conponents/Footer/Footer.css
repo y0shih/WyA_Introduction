@@ -1,0 +1,24 @@
+.footer {
+    height: var(--footer-height);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--main-Padding_left_right);
+}
+
+.footer__element {
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    background-color: transparent !important;
+    display: flex;
+    align-items: center;
+}
+
+.footer__element__content--right {
+    color: #808080;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,3 +1,26 @@
 .App {
-  text-align: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.elementShadow {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  background-color: #808080;
+  border-radius: 50%;
+  filter: blur(100px);
+}
+
+.elementShadow1 {
+  top: -200px;
+  right: -200px;
+}
+
+.elementShadow2 {
+  bottom: -200px;
+  left: -200px;
 }

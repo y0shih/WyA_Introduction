@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  --header-height: 80px;
+  --footer-height: 80px;
+  --main-Padding_left_right: 0 100px;
 }
 
 html,
