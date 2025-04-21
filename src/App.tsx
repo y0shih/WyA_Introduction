@@ -3,6 +3,7 @@ import './App.css';
 
 // Import components
 import MainPage from './pages/mainPage';
+import SplashCursor from './Animations/SplashCursor/SplashCursor';
 
 const App:React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App:React.FC = () => {
       <div className='elementShadow elementShadow1'></div>
       <div className='elementShadow elementShadow2'></div>
       <MainPage />
+      <SplashCursor />
     </div>
   );
 }
