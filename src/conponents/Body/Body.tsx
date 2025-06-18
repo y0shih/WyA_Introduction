@@ -8,6 +8,10 @@ import GradientText from "../../Animations/TextAnimations/GradientText/GradientT
 import './Body.css'
 
 const Body: React.FC = () => {
+    const handleDownload = () => {
+        window.open("https://drive.google.com/drive/folders/1giNUMOHDK95nTGNQZfvENDUIiNL43EdA?usp=sharing")
+    }
+
     return (
         <div className="bodyComponent">
             {/* <h1 className="bodyComponent__heroSection">The real-time location <br /> tracking app</h1> */}
@@ -25,7 +29,7 @@ const Body: React.FC = () => {
                     Stay connected wherever you are
                 </span>
             </p>
-            <button className="bodyComponent__downloadBtn">
+            <button className="bodyComponent__downloadBtn" onClick={handleDownload}>
                 <i className="fas fa-download"></i>
                 Download for Android (v 1.0.0)
             </button>
