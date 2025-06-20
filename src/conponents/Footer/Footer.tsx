@@ -16,7 +16,7 @@ const Footer:React.FC = () => {
             <div className="footer__element footer__element--right">
                 <p className="footer__element__content--right"> 
                     <strong><i>GIS MOBILE</i></strong>
-                    <i><u>Design by group 3</u></i>
+                    <i><u>Design by group 2</u></i>
                 </p>
             </div>
         </div>

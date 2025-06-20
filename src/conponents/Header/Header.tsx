@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <div className="header">
             <div className="header__nameBox">
                 <img className="header__nameBox__logo" src={require("../../assessts/WyA_Logo.png")} alt="oj" />
-                <h3 className="header__nameBox__appName">Where ya At</h3>
+                <h3 className="header__nameBox__appName">Where you At</h3>
             </div>
         </div>
     )
