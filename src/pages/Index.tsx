@@ -169,7 +169,7 @@ const Index = () => {
             <span className="text-xl font-bold text-white">WyA</span>
           </div>
           <p className="text-white/60">
-            © 2024 WyA. Connect responsibly.
+            © 2025 WyA. Connect responsibly.
           </p>
         </div>
       </footer>
